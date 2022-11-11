@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹框</title>
+    <link rel="stylesheet" href="./css/meyer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ad_style.css">
+    <script>
+        window.onload = function () {
+            var mywindow = document.getElementById("modal_window");
+            var xclose = document.getElementById("xclose");
+            xclose.onclick = function () {
+                mywindow.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="head clearfix">
+        <div class="van">
+            <div class="title"><a href="">正在热映</a></div>
+            <div class="title"><a href="">即将上映</a></div>
+            <div class="title"><a href="" class="selected">经典影片</a></div>
+        </div>
+    </div>
+    <div class="mark">
+        <div class="container clearfix">
+            <div class="lable0">类型:</div>
+            <div class="lable"><a href="" class="selected">全部</a></div>
+            <div class="lable"><a href="">爱情</a></div>
+            <div class="lable"><a href="">喜剧</a></div>
+            <div class="lable"><a href="">动画</a></div>
+            <div class="lable"><a href="">剧情</a></div>
+            <div class="lable"><a href="">惊悚</a></div>
+            <div class="lable"><a href="">恐怖</a></div>
+            <div class="lable"><a href="">科幻</a></div>
+            <div class="lable"><a href="">动作</a></div>
+            <div class="lable"><a href="">悬疑</a></div>
+            <div class="lable"><a href="">犯罪</a></div>
+            <div class="lable"><a href="">冒险</a></div>
+            <div class="lable"><a href="">奇幻</a></div>
+            <div class="lable"><a href="">战争</a></div>
+            <div class="lable"><a href="">运动</a></div>
+            <div class="lable"><a href="">家庭</a></div>
+            <div class="lable"><a href="">古装</a></div>
+            <div class="lable"><a href="">武侠</a></div>
+            <div class="lable"><a href="">西部</a></div>
+            <div class="lable"><a href="">历史</a></div>
+            <div class="lable"><a href="">传记</a></div>
+            <div class="lable"><a href="">歌舞</a></div>
+            <div class="lable"><a href="">纪录片</a></div>
+            <div class="lable"><a href="">戏曲</a></div>
+            <div class="lable"><a href="">音乐</a></div>
+            <div class="lable"><a href="">灾难</a></div>
+            <div class="lable"><a href="">儿童</a></div>
+            <div class="lable"><a href="">青春</a></div>
+            <div class="lable"><a href="">短片</a></div>
+            <div class="lable"><a href="">其他</a></div>
+        </div>
+        <div class="container clearfix division">
+            <div class="lable0">区域:</div>
+            <div class="lable"><a href="" class="selected">全部</a></div>
+            <div class="lable"><a href="">大陆</a></div>
+            <div class="lable"><a href="">美国</a></div>
+            <div class="lable"><a href="">韩国</a></div>
+            <div class="lable"><a href="">日本</a></div>
+            <div class="lable"><a href="">香港</a></div>
+            <div class="lable"><a href="">台湾</a></div>
+            <div class="lable"><a href="">泰国</a></div>
+            <div class="lable"><a href="">印度</a></div>
+            <div class="lable"><a href="">英国</a></div>
+            <div class="lable"><a href="">俄罗斯</a></div>
+            <div class="lable"><a href="">意大利</a></div>
+            <div class="lable"><a href="">波兰</a></div>
+            <div class="lable"><a href="">西班牙</a></div>
+            <div class="lable"><a href="">德国</a></div>
+            <div class="lable"><a href="">澳大利亚</a></div>
+            <div class="lable"><a href="">伊朗</a></div>
+            <div class="lable"><a href="">巴西</a></div>
+            <div class="lable"><a href="">冰岛</a></div>
+            <div class="lable"><a href="">其他</a></div>
+        </div>
+        <div class="container clearfix">
+            <div class="lable0">年代:</div>
+            <div class="lable"><a href="" class="selected">全部</a></div>
+            <div class="lable"><a href="">2022</a></div>
+            <div class="lable"><a href="">2021</a></div>
+            <div class="lable"><a href="">2020</a></div>
+            <div class="lable"><a href="">2019</a></div>
+            <div class="lable"><a href="">2018</a></div>
+            <div class="lable"><a href="">2017</a></div>
+            <div class="lable"><a href="">2016</a></div>
+            <div class="lable"><a href="">2015</a></div>
+            <div class="lable"><a href="">2014</a></div>
+            <div class="lable"><a href="">2013</a></div>
+            <div class="lable"><a href="">2012</a></div>
+            <div class="lable"><a href="">2011</a></div>
+            <div class="lable"><a href="">2010-2000</a></div>
+            <div class="lable"><a href="">90年代</a></div>
+            <div class="lable"><a href="">80年代</a></div>
+            <div class="lable"><a href="">70年代</a></div>
+            <div class="lable"><a href="">更早</a></div>
+        </div>
+    </div>
+    <div class="image clearfix">
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/25bfd671339c7e8ea33139d0476cb0d92908d.jpg?imageView2/1/w/218/h/300"
+                alt="人生大事">
+            <p class="name">人生大事</p>
+            <p class="score">9.6</p>
+        </div>
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/d2dad5927a3be15bf111e5d9575dcc7f58f2e.jpg?imageView2/1/w/218/h/300"
+                alt="大鱼海棠2">
+            <p class="name">大鱼海棠2</p>
+            <p class="nonscore"> 暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/25bfd671b12f2ad7c3d7c37db5a7ce2aadac9.jpg?imageView2/1/w/218/h/300"
+                alt="一周的朋友">
+            <p class="name">一周的朋友</p>
+            <p class="score">8.0</p>
+        </div>
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/25bfd671be15bf51baf0ee3a5d06b91bf94c3.jpg?imageView2/1/w/218/h/300"
+                alt="侏罗纪世界3">
+            <p class="name">侏罗纪世界3</p>
+            <p class="score">8.0</p>
+        </div>
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/25bfd6870302ff11e55bf1d33ab63ee3660d2.jpg?imageView2/1/w/218/h/300"
+                alt="雷神4:爱与雷霆">
+            <p class="name">雷神4:爱与雷霆</p>
+            <p class="nonscore"> 暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img class="post"
+                src="https://p0.pipi.cn/mmdb/25bfd67171f2ff338f31397eddc97451194d8.jpg?imageView2/1/w/218/h/300"
+                alt="坏蛋联盟">
+            <p class="name">坏蛋联盟</p>
+            <p class="score">9.1</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd6be5bfdddb860537c2c93376b6500835.jpg?imageView2/1/w/218/h/300"
+                alt="奇异博士2:疯狂多元宇宙" class="post">
+            <p class="name">奇异博士2:疯狂多元宇宙</p>
+            <p class="nonscore">暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd68decdb12b53592351a40d2bc6da3453.jpg?imageView2/1/w/218/h/300"
+                alt="熊出没:重返地球" class="post">
+            <p class="name">熊出没:重返地球</p>
+            <p class="score">8.8</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd69ac7e51baf33e7aa357b4d497b6145d.jpg?imageView2/1/w/218/h/300"
+                alt="新-奥特曼" class="post">
+            <p class="name">新-奥特曼</p>
+            <p class="nonscore">暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/d2dad592b12f2ac69687a9f698341a4f39842.jpg?imageView2/1/w/218/h/300"
+                alt="大鱼海棠" class="post">
+            <p class="name">大鱼海棠</p>
+            <p class="score">8.4</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd67102f2ff67cbc7edd1a7123e1e354dc.jpg?imageView2/1/w/218/h/300"
+                alt="遇见你之后" class="post">
+            <p class="name">遇见你之后</p>
+            <p class="score">7.1</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd6719ab339b860af333d9ae02439e6179.jpg?imageView2/1/w/218/h/300"
+                alt="你是我的春天" class="post">
+            <p class="name">你是我的春天</p>
+            <p class="nonscore">暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd671be151b2ff711e5024a88733756aae.jpg?imageView2/1/w/218/h/300"
+                alt="暗恋-橘生淮南" class="post">
+            <p class="name">暗恋-橘生淮南</p>
+            <p class="score">8.2</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd69ae7a5bff0ee230fed0210646bfdde9.jpg?imageView2/1/w/218/h/300"
+                alt="我是真的讨厌异地恋" class="post">
+            <p class="name">我是真的讨厌异地恋</p>
+            <p class="score">8.3</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd69adddddd8ea3af33d441fff7dde177e.jpg?imageView2/1/w/218/h/300"
+                alt="月球陨落" class="post">
+            <p class="name">月球陨落</p>
+            <p class="score">8.2</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/d2dad52f8d351bf0ee2ff7616f8ce7345ae30.jpg?imageView2/1/w/218/h/300"
+                alt="名侦探柯南-万圣节的新娘" class="post">
+            <p class="name">名侦探柯南-万圣节的新娘</p>
+            <p class="nonscore">暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd69aecddddb8600fafd4a3d59a7b10f55.jpg?imageView2/1/w/218/h/300"
+                alt="小黄人大眼萌2:格鲁的崛起" class="post">
+            <p class="name">小黄人大眼萌2:格鲁的崛起</p>
+            <p class="nonscore">暂无评分</p>
+        </div>
+        <div class="vanPost">
+            <img src="https://p0.pipi.cn/mmdb/25bfd69a8eac7e7a3539dd3abbabc299e2f10.jpg?imageView2/1/w/218/h/300"
+                alt="精灵旅社4:变身大冒险" class="post">
+            <p class="name">精灵旅社4:变身大冒险</p>
+            <p class="score">9.0</p>
+        </div>
+    </div>
+    <div id="page">
+        <a href="" class="selected">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">6</a>
+        <a href="">7</a>
+        <a href="">8</a>
+        <a href="">9</a>
+        <a href="">10</a>
+    </div>
+
+    <div class="modal" id="modal_window">
+        <div class="content">
+            奔快道洪同，不希只。
+            <div class="close" id="xclose">
+                X
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

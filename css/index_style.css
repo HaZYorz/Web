@@ -1,0 +1,48 @@
+.header {
+    width: auto;
+    height: 60px;
+    background-color: #008c8c;
+}
+
+.header p {
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contain {
+    width: auto;
+    margin: 5px;
+    height: 670px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.contain .part {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    border: #008c8c 2px dotted;
+    background-color: lightblue;
+}
+
+.contain .part.no1,
+.part.no3 {
+    left: 30px;
+}
+
+.contain .part.no2,
+.part.no4 {
+    right: 30px;
+}
+
+.contain .part.no1,
+.part.no2 {
+    top: 30px;
+}
+
+.contain .part.no3,
+.part.no4 {
+    top: 350px;
+}

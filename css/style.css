@@ -1,0 +1,142 @@
+.head{
+    color: #000000;
+    background: #47464a;
+}
+.van{
+    width: 312px;
+    height: 60px;
+    margin: auto;
+}
+.title{
+    width: 64px;
+    height: auto;
+    padding:20px;
+    margin: auto 0; 
+    float: left;
+}
+.title a{
+    display: inline-block;
+    color: #999; 
+    text-align: center;
+    text-decoration: none;
+}
+.title a:hover{
+    color: #fff;
+}
+.title  a.selected{
+    color: #ef4238;
+}
+.mark{
+    width: 1120px;
+    height: auto;
+    border: #e2e2e2 1px solid;
+    margin: 40px auto;
+}
+.container{
+    margin: 0 20px;
+    padding: 15px 0;
+    width: auto;
+    height: auto;
+}
+.division{
+    border-top: #e2e2e2 1px dotted;
+    border-bottom:#e2e2e2 1px dotted;
+}
+.lable{
+    color: #333;
+    font-size: 14px;
+    float: left;
+    padding: 2px;
+    margin-left:25px;
+}
+.lable0{
+    color: #999;
+    font-size: 14px;
+    float: left;
+    padding: 5px;
+    margin-left:12px;
+}
+.lable a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.lable a:hover{
+    color: #ef4238;
+}
+.lable  a.selected{
+    color: #fff;
+    background-color: #ef4238;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.image{
+    width: 1140px;
+    height: auto;
+    margin: 40px auto;
+}
+.post{
+    height: 220px;
+    width: 160px;
+}
+.vanPost{
+    margin-top: 20px;
+    margin-left: 28px;
+    float: left;
+}
+.vanPost p{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.vanPost .name{
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #333;
+}
+.vanPost .nonscore{
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #ffb400;
+}
+.vanPost .score{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 24px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    color: #ffb400;
+}
+#page{
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+#page a {
+    display: inline-block;
+    border: 1px solid #d8d8d8;
+    margin:  0 4px;
+    width: 33px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+#page a:hover{
+    color: #fff;
+    border: 1px solid #ef4238;
+    background-color: #ef4238;
+}
+#page  a.selected{
+    color: #fff;
+    background-color: #ef4238;
+}
