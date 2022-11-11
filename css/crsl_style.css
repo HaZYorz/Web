@@ -1,0 +1,90 @@
+.banner{
+    width: 500px;
+    height: 280px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    user-select: none;
+}
+.banner .imgs{
+    width: 1500px;
+    margin-left: 0;
+}
+.banner .imgs .img1,.img2,.img3{
+    position: relative;
+    width: 500px;
+    height: 280px;
+    float: left;
+}
+.banner .imgs img{
+    width: 500px;
+    height: 280px;
+}
+.banner .left,.right{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.banner .left:hover,.right:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.banner .left{
+    left: 10px;
+}
+.banner .right{
+    right: 10px;
+}
+.banner .modal{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0),rgba(0,0,0,0.8));
+}
+.banner .imgs .title{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    margin: 0 20px;
+    font-weight: 400;
+    z-index: 1;
+}
+.banner .modal .dot{
+    float: right;
+    margin: 0 20px;
+}
+.banner .modal .dot li{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    display: inline-block;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner .modal .dot .dot1{
+    background-color: #369;
+}
+.banner .modal .dot li:hover{
+    background-color: #369;
+}

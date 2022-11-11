@@ -1,0 +1,71 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    height: 30px;
+    line-height: 30px;
+    background: #e3e4e5;
+    color: #999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.header .topnav{
+    height: 30px;
+    margin: 0 auto;
+    width: 500px;
+}
+.header .topnav>li{
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    width: 70px;
+    height: 28px;
+    border: 1px solid #e3e4e5;
+    position: relative;
+}
+.header .topnav>li:hover{
+    background: #fff;
+    border: 1px solid #999;
+    border-bottom: none;
+}
+.header .topnav>li:hover::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    background-color: white;
+}
+.header .topnav a:hover{
+    color: #e33333;
+}
+.header .topnav .subnav{
+    position: absolute;
+    width: 140px;
+    background: #fff;
+    border: 1px solid #999;
+    /* 不生成盒子 */
+    display: none;
+    position: absolute;
+    top: 28px;
+    right: -1px;
+}
+.header .topnav .subnav>ul>li{
+    float: left;
+    text-align: center;
+    width: 70px;
+    margin: 0 auto;
+}
+.header .topnav>li:hover .subnav{
+    display: block;
+}
+.container{
+    height: 1000px;
+    background-color: aqua;
+}
